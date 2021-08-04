@@ -1,0 +1,19 @@
+#btn2{
+    margin-left: 15px;
+}
+
+#btn1{
+    margin-left: 900px;
+}
+
+a:hover{
+color: black;
+}
+
+@media screen and (max-width: 800px){
+#btn1{
+    margin-left:10px;
+    margin-bottom: 20px;
+    
+}
+}

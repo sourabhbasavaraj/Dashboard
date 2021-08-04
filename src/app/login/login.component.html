@@ -1,0 +1,28 @@
+ <html>    
+<head>    
+    <title>Login Form</title>      
+</head>    
+<body>    
+    <h1>Login Page</h1><br>    
+<div class="login">    
+    <form id="login">    
+        <label for="username">
+            <b>User Name</b>    
+        </label>    
+        <br>
+        <input type="text" name="Uname" id="Uname" placeholder="Username">    
+           <br><br>
+        <label>
+            <b>Password</b>    
+        </label>  
+        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
+          <br> <br>
+        <button class="btn btn-danger" (click)= "toDashboard()">  <a [routerLink]= "['/admin']" style="text-decoration: none;">Log In</a> </button>
+          <br>
+          <br>
+        <input type="checkbox" id="check">  
+        <span style="padding-left: 4px;">Remember me</span>       
+    </form>     
+</div>    
+</body>    
+</html> 

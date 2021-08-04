@@ -1,0 +1,38 @@
+.parallax{
+    background: url('../../../HW.jpeg') repeat fixed 100%;
+    background-size: cover;
+    color: aliceblue;
+    filter: blur(0.2px);
+
+}
+.parallax-1{
+    background: url('https://images.pexels.com/photos/1835712/pexels-photo-1835712.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940') repeat fixed 100%;
+    background-size: cover;
+    color: #67b664;
+    filter: blur(0.2px);
+}
+
+.parallax-inner{
+    padding-top: 20%;
+    padding-bottom: 20%;
+}
+#seeMore{
+    margin-left: 650px;
+    margin-top: 10px;
+    
+    
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(78, 143, 143);
+    text-decoration: none;
+}
+
+.mHeading{
+text-align: center;
+font-size: 4rem;
+}
